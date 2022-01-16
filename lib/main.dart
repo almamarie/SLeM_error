@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
       builder: () => MaterialApp(
         home: WelcomeScreen(),
       ),
+      designSize: const Size(428, 926),
     );
   }
 }
