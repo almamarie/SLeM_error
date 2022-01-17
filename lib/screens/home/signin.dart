@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 
 class SignIn extends StatefulWidget {
@@ -10,8 +12,19 @@ class SignIn extends StatefulWidget {
 class _SignInState extends State<SignIn> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Text('Sign In'),
+    return SafeArea(
+      child: Container(
+        width: double.infinity,
+        decoration: const BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage('assets/backgrounds/background login.png'),
+            fit: BoxFit.fitWidth,
+          ),
+        ),
+        child: Scaffold(
+          backgroundColor: Colors.transparent,
+        ),
+      ),
     );
   }
 }
