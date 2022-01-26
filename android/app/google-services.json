@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "525244468731",
+    "project_id": "slem-729cd",
+    "storage_bucket": "slem-729cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525244468731:android:571d5318c2435f1bbb0f5e",
+        "android_client_info": {
+          "package_name": "com.nest_afrika.smart_level_monitor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525244468731-asru744evrhq0fci24e06q3n4j13u2tv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjmUZtADOQLu_DX9daGMFkca6t_gGMAlg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "525244468731-asru744evrhq0fci24e06q3n4j13u2tv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
