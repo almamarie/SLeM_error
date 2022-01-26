@@ -15,6 +15,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return ScreenUtilInit(
       builder: () => MaterialApp(
+        theme: ThemeData(
+          fontFamily: 'FacebookSans',
+        ),
         home: SignIn(),
       ),
       designSize: const Size(428, 926),

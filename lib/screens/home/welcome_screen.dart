@@ -19,7 +19,7 @@ class WelcomeScreen extends StatelessWidget {
               Image.asset('assets/backgrounds/slem logo cropped 1.png'),
               Text(
                 'SLEM',
-                style: TextStyle(fontSize: 33.sp),
+                style: TextStyle(fontFamily: 'FacebookSans', fontSize: 30.sp),
               ),
               SizedBox(
                 height: 20.h,

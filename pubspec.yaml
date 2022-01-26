@@ -54,7 +54,20 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
-
+  fonts:
+    - family: FacebookSans
+      fonts:
+        - asset: assets/fonts/FacebookNarrowAppRegular.ttf
+        - asset: assets/fonts/FacebookSansBold.ttf
+        - asset: assets/fonts/FacebookSansBoldItalic.ttf
+        - asset: assets/fonts/FacebookSansHairline.ttf
+        - asset: assets/fonts/FacebookSansHairlineItalic.ttf
+        - asset: assets/fonts/FacebookSansHeavy.ttf
+        - asset: assets/fonts/FacebookSansHeavyItalic.ttf
+        - asset: assets/fonts/FacebookSansItalic.ttf
+        - asset: assets/fonts/FacebookSansLight.ttf
+        - asset: assets/fonts/FacebookSansLightItalic.ttf
+        - asset: assets/fonts/FacebookSansRegular.ttf
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
