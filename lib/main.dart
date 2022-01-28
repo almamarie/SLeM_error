@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:smart_level_monitor/screens/home/signin.dart';
-import 'package:smart_level_monitor/screens/home/welcome_screen.dart';
 import 'package:smart_level_monitor/screens/wrapper.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-void main() {
+void main() async {
+  await Firebase.initializeApp();
   runApp(MyApp());
 }
 
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           fontFamily: 'FacebookSans',
         ),
-        home: SignIn(),
+        home: Wrapper(),
       ),
       designSize: const Size(428, 926),
     );
